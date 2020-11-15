@@ -22,9 +22,9 @@ function primeNumber(){
             } 
           }
         }
-        if (attribute === true) {
-      alert("It's a prime number")
-    }
+        if (attribute) { // здесь можно упростить условие, т.к. переменная attribute и так логического типа
+          alert("It's a prime number")
+        }
       }
     }
   }
